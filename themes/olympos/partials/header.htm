@@ -1,0 +1,21 @@
+<header class="main-header">
+    <div class="container clearfix">
+        <h1 class="logo">October Movies</h1>
+
+        <nav class="main-nav">
+            <ul>
+                <li class="{% if this.page.id == 'homepage' %} active {% endif %}"><a href="{{ 'homepage'|page }}">Home</a></li>
+                <li class="{% if this.page.id == 'movies' %} active {% endif %}"><a href="{{ 'movies'|page }}">Movies</a></li>
+                <li class="{% if this.page.id == 'contact' %} active {% endif %}"><a href="{{ 'contact'|page }}">Contact</a></li>
+                <li class="{% if this.page.id == 'add-actors' %} active {% endif %}"><a href="{{ 'add-actors'|page }}">Add Actor</a></li>
+                {% if user %}
+                    <li class="{% if this.page.id == 'login' %} active {% endif %}"><a href="{{ 'login'|page }}">Profile</a></li>
+                    <a class="{% if this.page.id == 'login' %} active {% endif %}" data-request="onLogout" data-request-data="redirect: '/'">Sign out</a>
+                {% else %}
+                    <li class="{% if this.page.id == 'login' %} active {% endif %}"><a href="{{ 'login'|page }}">Login or Register</a></li>
+                {% endif %}
+            </ul>
+        </nav>
+    </div>
+
+</header>

@@ -1,0 +1,6 @@
+plugin:
+    name: 'sj.movies::lang.plugin.name'
+    description: 'sj.movies::lang.plugin.description'
+    author: sj
+    icon: oc-icon-adjust
+    homepage: ''

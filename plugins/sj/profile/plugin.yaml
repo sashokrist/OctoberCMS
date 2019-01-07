@@ -1,0 +1,6 @@
+plugin:
+    name: 'sj.profile::lang.plugin.name'
+    description: 'sj.profile::lang.plugin.description'
+    author: watchlearn
+    icon: oc-icon-adjust
+    homepage: ''

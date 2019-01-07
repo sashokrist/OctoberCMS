@@ -1,0 +1,2 @@
+[27-Dec-2018 23:35:28] PHP Warning:  Unexpected character in input:  '\' (ASCII=92) state=1 in /home/sjpharm/sashokrist.eu/ooo/index.php on line 43
+[27-Dec-2018 23:35:28] PHP Parse error:  syntax error, unexpected T_STRING in /home/sjpharm/sashokrist.eu/ooo/index.php on line 43
